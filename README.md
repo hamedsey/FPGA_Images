@@ -1,7 +1,7 @@
 # FPGA_Images
 FPGA Images (from my synthesis flow)
 
-To run Checksum Calculation Application, first follow instructions on server side, then go to client instructions.
+To run Checksum Calculation Application:
 
 On Server:
 1. git clone https://github.com/hroudbari/FPGA_Images.git
