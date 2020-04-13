@@ -5,7 +5,7 @@ To run Checksum Calculation Application:
 
 On Server:
 1. git clone https://github.com/hroudbari/FPGA_Images.git
-2. Program golden_checksum.mcs on the FPGA (user image)
+2. Program "golden_checksum.mcs" on the FPGA (user image)
 3. Power cycle the server.
 4. Load FPGA image from user image
 5. Run "python binary_server.py"
