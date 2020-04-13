@@ -11,7 +11,7 @@ On Server:
 5. Run "python binary_server.py"
 6. run "tcpdump -i eth0 -w traffic.pcap" in separate terminal to capture network traffic 
 7. Run client instructions.
-8. Do a ctrl+c on the server to stop pcap capture.
+8. Do a ctrl+c on both terminals to turn off server and stop pcap capture.
 9. Email "traffic.pcap" to hseyedro3@gatech.edu
 
 
