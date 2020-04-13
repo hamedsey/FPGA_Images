@@ -16,5 +16,5 @@ On Server:
 
 
 On Client:
-1. git clone https://github.com/hroudbari/FPGA_Images.git
+1. Run "git clone https://github.com/hroudbari/FPGA_Images.git"
 2. Run "python binary_client.py" 5 times.
