@@ -1,7 +1,7 @@
 # FPGA_Images
 FPGA Images (from my synthesis flow)
 
-To run Time Calculation Application:
+To run Clock Cycle Calculation Application:
 
 On Server:
 1. git clone https://github.com/hroudbari/FPGA_Images.git
