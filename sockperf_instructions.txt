@@ -1,0 +1,35 @@
+Single Threaded:
+
+	For Latency:
+
+		To run the server, use: 
+		LD_PRELOAD=libvma.so sockperf sr -i 192.168.1.2 -p 5901
+
+		To run the client, use:
+		LD_PRELOAD=libvma.so sockperf ul –i 192.168.1.2 -p 5901 -m 14 -t 10 --pps=max
+
+	For Throughput:
+
+		Run the server by using:
+		# LD_PRELOAD=libvma.so sockperf sr -i 192.168.1.2 -p 5901
+
+		Run the client by using: 
+		# LD_PRELOAD=libvma.so sockperf tp -i 192.168.1.2 -p 5901 -m 14 -t 10 --pps=max
+
+Multi-threaded:
+
+	For Latency:
+
+		To run the server, use: 
+		LD_PRELOAD=libvma.so sockperf sr -f conf.file -F s --threads-num 2
+
+		To run the client, use:
+		LD_PRELOAD=libvma.so sockperf ul -f conf.file -F s -m 14 -t 10 --pps=max
+
+	For Throughput:
+
+		Run the server by using:
+		LD_PRELOAD=libvma.so sockperf sr -f conf.file -F s --threads-num 2
+
+		Run the client by using: 
+		LD_PRELOAD=libvma.so sockperf tp -f conf.file -F s -m 14 -t 10 --pps=max
