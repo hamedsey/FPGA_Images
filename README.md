@@ -16,7 +16,7 @@ On Server:
 
 On Client:
 1. Run "git clone https://github.com/hroudbari/FPGA_Images.git"
-2. Open a separate terminal on client and run "tcpdump -i eth0 -w traffic_cyc_cnt.pcap" in separate terminal to capture network traffic 
+2. Open a separate terminal on client and run "tcpdump -i ensp20 -w traffic_cyc_cnt.pcap" in separate terminal to capture network traffic 
 3. Run "python time_binary_client.py" 10 times.
 4. Do a ctrl+c on terminal to stop pcap capture.
 4. A .txt file will get generated on the client (client_time.txt). Email client_time.txt and traffic_cyc_cnt.pcap" to hseyedro3@gatech.edu.
@@ -31,7 +31,7 @@ On Server:
 3. Power cycle the server.
 4. Load FPGA image from user image
 5. Run "python binary_server.py"
-6. run "tcpdump -i eth0 -w traffic.pcap" in separate terminal to capture network traffic 
+6. run "tcpdump -i ensp20 -w traffic.pcap" in separate terminal to capture network traffic 
 7. Run client instructions.
 8. Do a ctrl+c on both terminals to turn off server and stop pcap capture.
 9. Email "traffic.pcap" to hseyedro3@gatech.edu
