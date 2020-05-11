@@ -4,7 +4,7 @@ import struct
 
 # Create a TCP/IP socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_address = ('192.168.1.2', 10000)
+server_address = ('192.168.1.2', 5001)
 sock.bind(server_address)
 #sock.listen(1)
 
