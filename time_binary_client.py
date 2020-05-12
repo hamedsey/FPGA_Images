@@ -10,7 +10,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 #server_address = ('130.207.122.162', 5001)
 #server_address = ("130.207.125.115", 5099)
 #server_address = ('127.0.0.1', 5099)
-server_address = ('192.168.1.2', 5099)
+server_address = ('192.168.1.2', 5001)
 
 
 #sock.connect(server_address)
